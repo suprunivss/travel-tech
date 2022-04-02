@@ -1,8 +1,10 @@
-const Button = () => {
-  return (
-    <div>
+import './Button.scss'
 
-    </div>
+const Button = (props) => {
+  return (
+    <button { ...props } className={ `button button__${props.color}` }>
+      {props.children}
+    </button>
   );
 };
 
