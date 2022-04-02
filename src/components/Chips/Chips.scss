@@ -1,0 +1,25 @@
+.chips {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+  padding: 4px 24px;
+  border: none;
+  border-radius: 18px;
+  background-color: #F4F4F4;
+  color: #363636;
+  cursor: pointer;
+  transition: 300ms;
+
+  &:hover {
+    background-color: #FB9155;
+    color: #FFFFFF;
+  }
+
+  &:active {
+    background-color: #CB540F;
+    color: #FFFFFF;
+  }
+}

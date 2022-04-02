@@ -1,8 +1,10 @@
-const Chips = () => {
-  return (
-    <div>
+import './Chips.scss'
 
-    </div>
+const Chips = (props) => {
+  return (
+    <button {...props} className='chips'>
+      {props.children}
+    </button>
   );
 };
 
