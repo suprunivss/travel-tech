@@ -29,9 +29,9 @@ const Slider = () => {
         className='container'
       >
         {
-          sliderTitles.map(item => {
+          sliderTitles.map((item, index) => {
             return (
-              <SwiperSlide className="slider__swiper_title">
+              <SwiperSlide key={index} className="slider__swiper_title">
                 { item }
               </SwiperSlide>
             );
@@ -53,9 +53,9 @@ const Slider = () => {
           className='slider__swiper_container container'
         >
           {
-            sliderTitles.map(item => {
+            sliderTitles.map((item, index) => {
               return (
-                <SwiperSlide className="slider__swiper_text">
+                <SwiperSlide key={index} className="slider__swiper_text">
                   { item }
                 </SwiperSlide>
               );
