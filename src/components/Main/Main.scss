@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 740px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main {
+  padding-top: 190px;
+  background:  url("../../assets/img/main.png") no-repeat center /cover, rgba(31, 31, 31, 0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 100vh;
+
+  &__slider {
+    margin-bottom: 24px;
+  }
+
+  &__chips {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__input {
+    margin: 16px auto;
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+}
