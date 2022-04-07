@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/travel-tech/static/css/main.8a1fd057.css",
+    "main.js": "/travel-tech/static/js/main.95f14753.js",
+    "static/media/main.png": "/travel-tech/static/media/main.4ba8bba6f3008727e4c1.png",
+    "static/media/setting.svg": "/travel-tech/static/media/setting.a64244ace475c593ef42.svg",
+    "index.html": "/travel-tech/index.html",
+    "main.8a1fd057.css.map": "/travel-tech/static/css/main.8a1fd057.css.map",
+    "main.95f14753.js.map": "/travel-tech/static/js/main.95f14753.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a1fd057.css",
+    "static/js/main.95f14753.js"
+  ]
+}
